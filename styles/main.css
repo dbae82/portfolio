@@ -6,7 +6,7 @@
 
 body {
     background-color: #E3E3E3;
-    height: 100vh;
+    /* height: 100vh; */
 }
 
 #logo {
@@ -18,5 +18,16 @@ body {
     font-family: 'Cormorant Garamond', serif;
     text-transform: lowercase;
     font-size: large;
+    color: #233142;
+}
+
+.uk-card {
+    background-color: #E3E3E3;
+    font-family: 'Cormorant Garamond', serif;
+    color: #455D7A;
+}
+
+.uk-card-title {
+    font-family: 'Cormorant Garamond', serif;
     color: #233142;
 }
