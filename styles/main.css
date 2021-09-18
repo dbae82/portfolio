@@ -4,3 +4,19 @@
     padding: 0;
 }
 
+body {
+    background-color: #E3E3E3;
+    height: 100vh;
+}
+
+#logo {
+    width: 100px;
+    height: 39px;
+}
+
+#navbar-items {
+    font-family: 'Cormorant Garamond', serif;
+    text-transform: lowercase;
+    font-size: large;
+    color: #233142;
+}

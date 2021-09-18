@@ -11,6 +11,9 @@
     <link rel="icon" type="image/png" sizes="16x16" href="./assets/favicon_io/favicon-16x16.png">
     <link rel="manifest" href="./assets/favicon_io/site.webmanifest">
 
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/uikit@3.7.3/dist/css/uikit.min.css" />
     <link rel="stylesheet" href="./styles/main.css">
 
@@ -22,7 +25,20 @@
 </head>
 
 <body>
-    <h1>Hello World</h1>
+    <nav class="uk-navbar-container uk-navbar-transparent" uk-navbar>
+        <div class="uk-navbar-left uk-margin-large-left">
+            <ul class="uk-navbar-nav">
+                <a href="#" class="uk-navbar-item uk-logo"><img src="./assets/logo-dark.png" alt="logo" id="logo"></a>
+            </ul>
+        </div>
+        <div class="uk-navbar-right uk-margin-large-right">
+            <ul class="uk-navbar-nav">
+                <li><a href="#" id="navbar-items">about</a></li>
+                <li><a href="#" id="navbar-items">works</a></li>
+                <li><a href="#" id="navbar-items">resume</a></li>
+            </ul>
+        </div>
+    </nav>
 </body>
 
 </html>
