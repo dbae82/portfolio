@@ -34,30 +34,37 @@
         </div>
         <div class="uk-navbar-right uk-margin-large-right">
             <ul class="uk-navbar-nav">
-                <li><a href="#" id="navbar-items">about</a></li>
-                <li><a href="#" id="navbar-items">works</a></li>
-                <li><a href="#" id="navbar-items">skills</a></li>
+                <li><a href="#about" id="navbar-items" uk-scroll>about</a></li>
+                <li><a href="#works" id="navbar-items" uk-scroll>works</a></li>
+                <li><a href="#skills" id="navbar-items" uk-scroll>skills</a></li>
                 <li><a href="#" id="navbar-items">resume</a></li>
             </ul>
         </div>
     </nav>
 
-    <div
-        class="about-container uk-align-center uk-flex uk-flex-center uk-flex-middle uk-margin-xlarge-left uk-margin-xlarge-right uk-margin-xlarge-top">
-        <div class="about-container__image">
-            <img src="./assets/profile-portrait.jpeg" alt="portfolio-portrait" id="profile-img">
+    <div class="uk-section-default">
+        <div class="uk-section uk-light uk-background-cover" uk-parallax="bgy: -800"
+            style="background-image: url(./assets/background-hero.jpeg);" id="hero">
         </div>
-        <div class="about-container__body uk-margin-left">
-            <h2 id="text">Hello 👋 I'm Dan.</h2>
-            <p>I am passionate about web development and design.</p>
-            <p>Take a look at my work and let me know what you think.</p>
-        </div>
-
     </div>
+
+    <!-- <div uk-scrollspy="cls: uk-animation-slide-bottom; target: .about-container; delay: 300; repeat: true"> -->
+        <div
+            class="about-container uk-align-center uk-flex uk-flex-center uk-flex-middle uk-margin-xlarge-left uk-margin-xlarge-right uk-margin-xlarge-top" id="about">
+            <div class="about-container__image">
+                <img src="./assets/profile-portrait.jpeg" alt="portfolio-portrait" id="profile-img">
+            </div>
+            <div class="about-container__body uk-margin-left">
+                <h2 id="text">Hello 👋 I'm Dan.</h2>
+                <p>I am passionate about web development and design.</p>
+                <p>Take a look at my work and let me know what you think.</p>
+            </div>
+        </div>
+    <!-- </div> -->
 
     <div uk-scrollspy="cls: uk-animation-slide-bottom; target: .uk-card; delay: 300; repeat: true">
         <div class="uk-card uk-card-default uk-grid-collapse uk-child-width-1-2@s uk-margin-xlarge-left uk-margin-xlarge-right uk-margin-xlarge-top"
-            uk-grid>
+            uk-grid id="works">
             <div class="uk-card-media-left uk-cover-container">
                 <img src="./assets/sports-tweets.png" alt="sports-tweets" uk-cover>
                 <canvas width="600px" height="400px"></canvas>
@@ -121,21 +128,21 @@
         </div>
     </div>
 
-    <div class="about-container uk-grid-column-collapse uk-child-width-expand@s uk-grid-row-collapse uk-flex-center uk-margin-xlarge-left uk-margin-xlarge-right uk-margin-xlarge-top"
-        uk-grid>
-        <img src="./assets/skills/html.png" alt="html" id="skills-img">
-        <img src="./assets/skills/css.png" alt="css" id="skills-img">
-        <img src="./assets/skills/js.png" alt="js" id="skills-img">
-        <img src="./assets/skills/sass.png" alt="sass" id="skills-img">
-        <img src="./assets/skills/react.png" alt="react" id="skills-img">
-        <img src="./assets/skills/python.png" alt="python" id="skills-img">
-        <img src="./assets/skills/github.png" alt="github" id="skills-img">
-        <img src="./assets/skills/node.png" alt="node" id="skills-img">
-        <img src="./assets/skills/bootstrap.png" alt="bootstrap" id="skills-img">
-        <img src="./assets/skills/uikit.png" alt="uikit" id="skills-img">
-    </div>
-
-    <hr>
+    <!-- <div uk-scrollspy="cls: uk-animation-slide-bottom; target: .skills-container; delay: 300; repeat: true"> -->
+        <div class="skills-container uk-grid-column-collapse uk-child-width-expand@s uk-grid-row-collapse uk-flex-center uk-margin-xlarge-left uk-margin-xlarge-right uk-margin-xlarge-top uk-margin-xlarge-bottom"
+            uk-grid id="skills">
+            <img src="./assets/skills/html.png" alt="html" id="skills-img">
+            <img src="./assets/skills/css.png" alt="css" id="skills-img">
+            <img src="./assets/skills/js.png" alt="js" id="skills-img">
+            <img src="./assets/skills/sass.png" alt="sass" id="skills-img">
+            <img src="./assets/skills/react.png" alt="react" id="skills-img">
+            <img src="./assets/skills/python.png" alt="python" id="skills-img">
+            <img src="./assets/skills/github.png" alt="github" id="skills-img">
+            <img src="./assets/skills/node.png" alt="node" id="skills-img">
+            <img src="./assets/skills/bootstrap.png" alt="bootstrap" id="skills-img">
+            <img src="./assets/skills/uikit.png" alt="uikit" id="skills-img">
+        </div>
+    <!-- </div> -->
 
     <footer class="uk-navbar-container uk-navbar-transparent" uk-navbar>
         <div class="uk-navbar-center">
@@ -143,6 +150,11 @@
                 <li><a href="#" class="uk-navbar-item" id="navbar-items"><span>&copy;</span> Dan Bae</a></li>
                 <li><a href="https://www.linkedin.com/in/dan-bae/" uk-icon="linkedin" target="_blank"></a></li>
                 <li><a href="https://github.com/dbae82" uk-icon="github" target="_blank"></a></li>
+            </ul>
+        </div>
+        <div class="uk-navbar-right">
+            <ul class="uk-navbar-nav">
+                <li><a href="#" uk-totop uk-scroll></a></li>
             </ul>
         </div>
     </footer>

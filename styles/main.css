@@ -21,6 +21,10 @@ body {
     color: #233142;
 }
 
+#hero {
+    height: 100vh;
+}
+
 #profile-img {
     height: auto;
     width: 250px;
