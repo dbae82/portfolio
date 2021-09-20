@@ -27,6 +27,12 @@ body {
     /* transition: .5s ease-in-out; */
 }
 
+#totop {
+    bottom: 0;
+    position: fixed;
+    z-index: 1;
+}
+
 #hero {
     height: 100vh;
 }
@@ -63,4 +69,15 @@ body {
 #resume {
     height: auto;
     object-fit: cover;
+}
+
+#download-link {
+    text-decoration: none;
+}
+
+#download {
+    font-family: 'Cormorant Garamond', serif;
+    color: #233142;
+    text-align: center;
+    text-decoration: none;
 }
