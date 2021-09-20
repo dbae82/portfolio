@@ -21,6 +21,12 @@ body {
     color: #233142;
 }
 
+#navbar-items:hover {
+    /* background-color: #F95959; */
+    color: #455D7A;
+    /* transition: .5s ease-in-out; */
+}
+
 #hero {
     height: 100vh;
 }
@@ -50,6 +56,11 @@ body {
 
 #skills-img {
     width: 100px;
+    height: auto;
+    object-fit: cover;
+}
+
+#resume {
     height: auto;
     object-fit: cover;
 }

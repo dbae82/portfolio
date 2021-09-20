@@ -29,7 +29,8 @@
     <nav class="uk-navbar-container uk-navbar-transparent" uk-navbar>
         <div class="uk-navbar-left uk-margin-large-left">
             <ul class="uk-navbar-nav">
-                <a href="#" class="uk-navbar-item uk-logo"><img src="./assets/logo-dark.png" alt="logo" id="logo"></a>
+                <a href="https://www.linkedin.com/in/dan-bae/" class="uk-navbar-item uk-logo" target="_blank"><img
+                        src="./assets/logo-dark.png" alt="logo" id="logo"></a>
             </ul>
         </div>
         <div class="uk-navbar-right uk-margin-large-right">
@@ -37,7 +38,7 @@
                 <li><a href="#about" id="navbar-items" uk-scroll>about</a></li>
                 <li><a href="#works" id="navbar-items" uk-scroll>works</a></li>
                 <li><a href="#skills" id="navbar-items" uk-scroll>skills</a></li>
-                <li><a href="#" id="navbar-items">resume</a></li>
+                <li><a href="#resume" id="navbar-items" uk-scroll>resume</a></li>
             </ul>
         </div>
     </nav>
@@ -49,17 +50,17 @@
     </div>
 
     <!-- <div uk-scrollspy="cls: uk-animation-slide-bottom; target: .about-container; delay: 300; repeat: true"> -->
-        <div
-            class="about-container uk-align-center uk-flex uk-flex-center uk-flex-middle uk-margin-xlarge-left uk-margin-xlarge-right uk-margin-xlarge-top" id="about">
-            <div class="about-container__image">
-                <img src="./assets/profile-portrait.jpeg" alt="portfolio-portrait" id="profile-img">
-            </div>
-            <div class="about-container__body uk-margin-left">
-                <h2 id="text">Hello 👋 I'm Dan.</h2>
-                <p>I am passionate about web development and design.</p>
-                <p>Take a look at my work and let me know what you think.</p>
-            </div>
+    <div class="about-container uk-align-center uk-flex uk-flex-center uk-flex-middle uk-margin-xlarge-left uk-margin-xlarge-right uk-margin-xlarge-top"
+        id="about">
+        <div class="about-container__image">
+            <img src="./assets/profile-portrait.jpeg" alt="portfolio-portrait" id="profile-img">
         </div>
+        <div class="about-container__body uk-margin-left">
+            <h2 id="text">Hello 👋 I'm Dan.</h2>
+            <p>I am passionate about web development and design.</p>
+            <p>Take a look at my work and let me know what you think.</p>
+        </div>
+    </div>
     <!-- </div> -->
 
     <div uk-scrollspy="cls: uk-animation-slide-bottom; target: .uk-card; delay: 300; repeat: true">
@@ -129,20 +130,33 @@
     </div>
 
     <!-- <div uk-scrollspy="cls: uk-animation-slide-bottom; target: .skills-container; delay: 300; repeat: true"> -->
-        <div class="skills-container uk-grid-column-collapse uk-child-width-expand@s uk-grid-row-collapse uk-flex-center uk-margin-xlarge-left uk-margin-xlarge-right uk-margin-xlarge-top uk-margin-xlarge-bottom"
-            uk-grid id="skills">
-            <img src="./assets/skills/html.png" alt="html" id="skills-img">
-            <img src="./assets/skills/css.png" alt="css" id="skills-img">
-            <img src="./assets/skills/js.png" alt="js" id="skills-img">
-            <img src="./assets/skills/sass.png" alt="sass" id="skills-img">
-            <img src="./assets/skills/react.png" alt="react" id="skills-img">
-            <img src="./assets/skills/python.png" alt="python" id="skills-img">
-            <img src="./assets/skills/github.png" alt="github" id="skills-img">
-            <img src="./assets/skills/node.png" alt="node" id="skills-img">
-            <img src="./assets/skills/bootstrap.png" alt="bootstrap" id="skills-img">
-            <img src="./assets/skills/uikit.png" alt="uikit" id="skills-img">
-        </div>
+    <div class="skills-container uk-grid-column-collapse uk-child-width-expand@s uk-grid-row-collapse uk-flex-center uk-margin-xlarge-left uk-margin-xlarge-right uk-margin-xlarge-top uk-margin-xlarge-bottom"
+        uk-grid id="skills">
+        <img src="./assets/skills/html.png" alt="html" id="skills-img">
+        <img src="./assets/skills/css.png" alt="css" id="skills-img">
+        <img src="./assets/skills/js.png" alt="js" id="skills-img">
+        <img src="./assets/skills/sass.png" alt="sass" id="skills-img">
+        <img src="./assets/skills/react.png" alt="react" id="skills-img">
+        <img src="./assets/skills/python.png" alt="python" id="skills-img">
+        <img src="./assets/skills/github.png" alt="github" id="skills-img">
+        <img src="./assets/skills/node.png" alt="node" id="skills-img">
+        <img src="./assets/skills/bootstrap.png" alt="bootstrap" id="skills-img">
+        <img src="./assets/skills/uikit.png" alt="uikit" id="skills-img">
+    </div>
     <!-- </div> -->
+
+    <div class="uk-child-width-1-2@m uk-margin-xlarge-left uk-margin-xlarge-right uk-margin-xlarge-bottom uk-grid-column-collapse" uk-grid uk-lightbox="animation: slide" id="resume">
+        <div>
+            <a href="./assets/resume-1.jpeg" class="uk-inline" data-caption="Page 1">
+                <img src="./assets/resume-1.jpeg" alt="resume" id="resume">
+            </a>
+        </div>
+        <div>
+            <a href="./assets/resume-2.jpeg" class="uk-inline" data-caption="Page 2">
+                <img src="./assets/resume-2.jpeg" alt="resume" id="resume">
+            </a>
+        </div>
+    </div>
 
     <footer class="uk-navbar-container uk-navbar-transparent" uk-navbar>
         <div class="uk-navbar-center">
