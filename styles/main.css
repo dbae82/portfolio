@@ -47,11 +47,13 @@ body {
 .about-container__body {
     font-family: 'Cormorant Garamond', serif;
     color: #455D7A;
+    font-size: larger;
 }
 
 .uk-card {
     background-color: #E3E3E3;
     font-family: 'Cormorant Garamond', serif;
+    font-size: large;
     color: #455D7A;
 }
 
