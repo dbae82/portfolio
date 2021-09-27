@@ -83,3 +83,19 @@ body {
     text-align: center;
     text-decoration: none;
 }
+
+#connect-legend {
+    font-family: 'Cormorant Garamond', serif;
+    color: #233142;
+    font-size: x-large;
+}
+
+#form-text {
+    font-family: 'Cormorant Garamond', serif;
+    color: #233142;
+}
+
+.uk-textarea {
+    font-family: 'Cormorant Garamond', serif;
+    color: #233142;
+}
