@@ -99,3 +99,14 @@ body {
     font-family: 'Cormorant Garamond', serif;
     color: #233142;
 }
+
+#submit-btn {
+    font-family: 'Cormorant Garamond', serif;
+    color: #E3E3E3;
+    background-color: #455D7A;
+}
+
+#success h1 {
+    font-family: 'Cormorant Garamond', serif;
+    color: #233142;
+}

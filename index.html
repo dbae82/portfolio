@@ -17,6 +17,7 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/uikit@3.7.3/dist/css/uikit.min.css" />
     <link rel="stylesheet" href="./styles/main.css">
 
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous" defer></script>
     <script src="https://cdn.jsdelivr.net/npm/uikit@3.7.3/dist/js/uikit.min.js" defer></script>
     <script src="https://cdn.jsdelivr.net/npm/uikit@3.7.3/dist/js/uikit-icons.min.js" defer></script>
     <script src="./scripts/app.js" defer></script>
@@ -193,20 +194,23 @@
         </div>
     </div>
 
-    <form>
+    <form id="contact-form">
         <fieldset class="uk-fieldset uk-margin-xlarge-bottom">
             <legend class="uk-legend uk-text-center" id="connect-legend">Let's Connect</legend>
             <div class="uk-margin uk-margin-xlarge-left uk-margin-xlarge-right">
-                <input type="text" class="uk-input" placeholder="Name" id="form-text">
+                <input type="text" name="name" class="uk-input" placeholder="Name" id="form-text">
             </div>
             <div class="uk-margin uk-margin-xlarge-left uk-margin-xlarge-right">
-                <input type="text" class="uk-input" placeholder="Email" id="form-text">
+                <input type="text" name="email" class="uk-input" placeholder="Email" id="form-text">
             </div>
             <div class="uk-margin uk-margin-xlarge-left uk-margin-xlarge-right">
-                <textarea name="message" id="" rows="5" class="uk-textarea" placeholder="Message"></textarea>
+                <textarea name="message" id="" rows="5" name="message" class="uk-textarea" placeholder="Message"></textarea>
             </div>
+            <button class="uk-button uk-align-center" type="submit" id="submit-btn">Submit</button>
         </fieldset>
     </form>
+
+    <div class="uk-text-center" id="success"></div>
 
     <footer class="uk-navbar-container uk-navbar-transparent" uk-navbar>
         <div class="uk-navbar-center">
