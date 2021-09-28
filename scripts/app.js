@@ -12,5 +12,5 @@ $('#submit-btn').on('click', function(e) {
     data: $form.serialize()
   })
   $form.css("display", "none")
-  $('#success').append("<h1>Thank you for reaching out.</h1>")
+  $('#success').append("<h3>Form has been successfully submitted. Hope you enjoyed my work! 👊</h3>").addClass("uk-margin-xlarge-bottom")
 })
