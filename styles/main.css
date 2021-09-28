@@ -22,9 +22,7 @@ body {
 }
 
 #navbar-items:hover {
-    /* background-color: #F95959; */
     color: #455D7A;
-    /* transition: .5s ease-in-out; */
 }
 
 #totop {
@@ -47,13 +45,13 @@ body {
 .about-container__body {
     font-family: 'Cormorant Garamond', serif;
     color: #455D7A;
-    /* font-size: large; */
+    font-size: large;
 }
 
 .uk-card {
     background-color: #E3E3E3;
     font-family: 'Cormorant Garamond', serif;
-    /* font-size: large; */
+    font-size: large;
     color: #455D7A;
 }
 
@@ -87,7 +85,7 @@ body {
 #connect-legend {
     font-family: 'Cormorant Garamond', serif;
     color: #233142;
-    /* font-size: x-large; */
+    font-size: x-large;
 }
 
 #form-text {
